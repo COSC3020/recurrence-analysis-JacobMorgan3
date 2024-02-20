@@ -28,6 +28,14 @@ function mystery(n) {
 }
 ```
 
+### My Recurrence Relation:
+
+$f(n) = { <br/>
+1              if n <= 1 <br/>
+3f(n) + n^5    else<br/>
+
+<br/>
+<br/>
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
