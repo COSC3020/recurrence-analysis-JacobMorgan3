@@ -32,7 +32,7 @@ function mystery(n) {
 
 $f(n) = { <br/>
 1              if n <= 1 <br/>
-3f(n) + n^5    else<br/>
+3f(n/3) + n^5    else <br/>
 
 <br/>
 <br/>
