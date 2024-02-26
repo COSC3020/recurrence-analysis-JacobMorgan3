@@ -35,6 +35,20 @@ $f(n) = { <br/>
 3f(n/3) + n^5    else <br/>
 
 <br/>
+
+$3f(n/3) + n^5$ <br/>
+$9(f(n) + 4n^5$ <br/>
+$27f(n) + 13n^5$ <br/>
+$3^i * f(n/3^i) +(($ $\sum_{j=0}^{i-1} 3^j) * n^5)$ <br/>
+To get into our base case we will set $3^i = n$ <br/>
+$i = log_3(n) <br/>
+Plugging $i$ back in we get: <br/>
+$n * 1 + (($ $\sum_{j=0}^{i-1} 3^j) * n^5)$ <br/>
+The sum evaluates to be linear or less than linear, so: <br/>
+$n + n^6$ <br/>
+$f(n) \in O(n^6)$
+
+<br/>
 <br/>
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
