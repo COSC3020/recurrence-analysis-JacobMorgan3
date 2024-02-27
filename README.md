@@ -43,8 +43,8 @@ $3^i * f(n/3^i) +(($ $\sum_{j=0}^{i-1} 3^j) * n^5)$ <br/>
 To get into our base case we will set $3^i = n$ <br/>
 $i = log_3(n) <br/>
 Plugging $i$ back in we get: <br/>
-$n * 1 + (($ $\sum_{j=0}^{i-1} 3^j) * n^5)$ <br/>
-The sum evaluates to be linear or less than linear, so: <br/>
+$n * 1 + ((n - 1)/2) * n^5$ <br/>
+The sum evaluates to be less than linear, so: <br/>
 $n + n^6$ <br/>
 $f(n) \in O(n^6)$
 
