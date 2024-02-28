@@ -45,7 +45,7 @@ $i = log_3(n) <br/>
 Plugging $i$ back in we get: <br/>
 $n * 1 + ((n - 1)/2) * n^5$ <br/>
 The sum evaluates to be less than linear, so: <br/>
-$n + n^6$ <br/>
+$n + n^5$ <br/>
 $f(n) \in O(n^6)$
 
 <br/>
